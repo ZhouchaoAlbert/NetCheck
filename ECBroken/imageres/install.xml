@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="318,348" maxinfo="318,348" mininfo="318,348" caption="0,0,0,35" sizebox="4,4,4,4" roundcorner="4,4,4,4" showshadow="true" shadowsize="5" shadowposition="1,1" shadowcolor="#333333">
+<Font name="微软雅黑" size="12" bold="false" default="true" />
+<Font name="微软雅黑" size="14" bold="true" />
+<Font name="微软雅黑" size="16" bold="false" />
+<Font name="微软雅黑" size="22" bold="false" />
+<Font name="微软雅黑" size="24" bold="false" />
+<Font name="微软雅黑" size="36" bold="false" />
+  <VerticalLayout name="VerticalLayoutUI5" width="318" height="348">
+	  <TabLayout name="WizardTab">    
+		  <Include source="mainpage.xml" />
+		  <Include source="definepage.xml" />
+		  <Include source="installpage.xml" />
+		  <Include source="finishpage.xml" />
+		  <Include source="unmainpage.xml" />
+		  <Include source="uninstallpage.xml" />
+		  <Include source="unfinishpage.xml" />   
+      </TabLayout>
+  </VerticalLayout>
+</Window>
